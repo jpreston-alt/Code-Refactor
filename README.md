@@ -1,23 +1,17 @@
 # Homework-1-Code-Refactor
 
-01 HTML CSS Git: Code Refactor
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities or socio-economic restrictions have access to their website, and helping them avoid litigation.
+To improve the existing website we were given for accessibility I replaced the standard div and span tags with semantic html tags, and added alt attributes to the images so that they are readable in the case that your image won't load, or if it's being read by a screen reader. I also added a title to the web page, and fixed the first link so that it linked you to the right area of the page.
 
-Your task is to refactor an existing webpage to make it accessible. An important rule to follow when working with someone else's code is the
+To clean up the html doc, I added white space in a way that made the code more readable to me by grouping up elements in a section and separating sections from one another. I also added comments so that anybody else that's looking at my code would be able to see right away how I structured it.
 
-Here is a heuristic for making HTML more accessible: HTML Accessibility
+To consolidate the CSS I grouped together like selectors and properties so that there was less repitition. I also reorganized it to follow the structure of the html page so that the first elements you see in your html doc are the first elements that are styled in the css file.
 
-Scout Rule:
-
-Always leave the code you are editing a little cleaner than you found it.
-
-To impress clients, you should always go the extra mile and improve their codebase for long term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
-
-User Story
+## User Story
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
-Acceptance Criteria
+
+## Acceptance Criteria
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
 THEN I find semantic HTML elements
@@ -30,10 +24,12 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 Review
+
+## Review
 You are required to submit the following for review:
 
-The URL of the deployed application.
+-The URL of the deployed application.
 
-The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+-The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
